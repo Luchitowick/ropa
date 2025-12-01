@@ -85,6 +85,12 @@ DATABASES = {
     }
 }
 
+ALLOWED_HOSTS = [
+    'ropa-73ur.onrender.com',  
+    '127.0.0.1',
+    'localhost',
+]
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
